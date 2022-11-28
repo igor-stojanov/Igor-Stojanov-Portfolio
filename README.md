@@ -1,8 +1,8 @@
-# Igor-Stojanov-Portfolio
+# Portfolio - Igor Stojanov
 
-## Hi there, I am Igor Stojanov and this is my portfolio web site. 👋
+## Hi there, I am Igor Stojanov and this is my portfolio website. 👋
 
-## You can access to my web site via link: https://igorstojanov.netlify.app/
+## You can access to my website via link: https://igorstojanov.netlify.app/
 
 <hr>
 
