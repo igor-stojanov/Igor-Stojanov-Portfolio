@@ -269,6 +269,7 @@
     padding-bottom: 4rem;
   }
   .about-stats .progress-bars {
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
