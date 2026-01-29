@@ -1,0 +1,44 @@
+{
+  "name": "igor-stojanov-portfolio",
+  "version": "2.0.0",
+  "description": "Personal portfolio website for Igor Stojanov - Backend & Web3 Developer",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass css/styles.scss css/styles.css",
+    "sass:watch": "sass --watch css/styles.scss:css/styles.css",
+    "sass:build": "sass css/styles.scss css/styles.css --style compressed",
+    "serve": "live-server --port=3000",
+    "dev": "npm-run-all --parallel sass:watch serve",
+    "build": "npm run sass:build",
+    "validate": "html-validate index.html",
+    "lighthouse": "lighthouse http://localhost:3000 --view",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer",
+    "backend",
+    "web3",
+    "python",
+    "fastapi",
+    "aws",
+    "react"
+  ],
+  "author": "Igor Stojanov <stojanovi.vs@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "html-validate": "^8.7.4",
+    "lighthouse": "^11.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igor-stojanov/Igor-Stojanov-Portfolio"
+  },
+  "bugs": {
+    "url": "https://github.com/igor-stojanov/Igor-Stojanov-Portfolio/issues"
+  },
+  "homepage": "https://igorstojanov.netlify.app"
+}
